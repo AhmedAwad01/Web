@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title> الكليات-OTU</title>
+</head>
+
+
+
+<body>
+    <section class="sub2-header">
+      <nav>
+        <a href="index.html"><img src="imgs/logo-removebg-preview.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-close " onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">الرئيسيه</a></li>
+            <li><a href="about.html">عن الجامعه</a></li>
+            <li><a href="faculty.html">الكليات</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+            <li><a href="login.html">تسجيل الدخول</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+      </nav>
+
+      <h1>برامج الجامعه</h1>
+      </section>
+
+      <section class="faculty">
+        <h1>نتكون الجامعه من</h1>
+        
+        <div class="row">
+          <div class="faculty-coul">
+            <h3>كليه الصناعه والطاقه </h3>
+            <p> تكنولوجيا المعلومات</p>
+            <p>تكنلوجيا الغزل والنسيج</p>
+            <p>تكنلوجيا السكه الحديد</p>
+            <p>تكنلوجيا التصنيع الغذائي</p>
+          </div>
+          <div class="faculty-coul">
+            <h3> كليه العلوم الصحيه</h3>
+            <p> تكنولوجيا تركيبات الاسنان</p>
+            <p>تكنلوجيا الصناعات الدوائيه</p>
+            <p>تكنلوجيا السكه الحديد</p>
+            <p>تكنلوجيا  اداره المعلوماتيه الطبيه</p>
+          </div>
+        </div>  
+      </section>
+  
+
+
+    <section class="footer">
+      <h4>عن الجامعه</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est  a tempore esse deserunt repellendus totam, officiis veniam illo qui sed <br> minus deleniti rem provident molestias repellat et recusandae ex.</p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-telegram"></i>
+        <i class="fa fa-whatsapp"></i>
+      </div>
+      <p>Made with <i class="fa fa-copyright"></i> IT Team
+      </p>
+
+    </section>
+
+    <!-- جزء الجافا -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+
+        navLinks.style.right ="0";
+      }
+      function hideMenu(){
+
+        navLinks.style.right ="-200px";
+      }
+    </script>
+</body>
+</html>
