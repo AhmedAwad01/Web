@@ -55,7 +55,6 @@ nav img{
 	position: absolute;
 	top: 50%;
 	left: auto;
-	transform: translate(-50,-50);
 	text-align: center;
 }
 .text-box h1{
@@ -115,7 +114,6 @@ nav .fa{
 	}
 }
 
-/* الكليات والاقسام */
 .faculty{
 	width: 50%;
 	margin: auto;
@@ -350,7 +348,6 @@ h3{
 	width: 100%;
 	padding: 15px;
 	margin-bottom: 17px;
-	outline: none;
 	border: 1px solid #ccc;
 	box-sizing: border-box;
 }
@@ -389,7 +386,6 @@ h3{
 	height: 100%;
 	background: transparent;
 	border: none;
-	outline: none;
 	border: 2px solid rgba(255, 255, 255, .2);
 	border-radius: 40px;
 	font-size: 16px;
@@ -403,7 +399,6 @@ h3{
 	position: absolute;
 	right: 20px;
 	top: 30%;
-	transform: translate(-50%);
 	font-size: 20px;
 
 }
